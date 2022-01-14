@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Beef Steak",
+      "img": "https://i.ibb.co/s2vGnVZ/lunch1.png",
+      "des": "Very much delicious and spicy",
+      "price": "15.99"
+    },
+    {
+      "id": 2,
+      "name": "Honey-Soy-Salmon",
+      "img": "https://i.ibb.co/Cz9NDKs/lunch2.png",
+      "des": "Very much delicious and spicy",
+      "price": "7.99"
+    },
+    {
+      "id": 3,
+      "name": "Taragon-Salmon",
+      "img": "https://i.ibb.co/R6hpwZ2/lunch3.png",
+      "des": "Very much delicious and spicy",
+      "price": "6.99"
+    },
+    {
+      "id": 4,
+      "name": "Indian-Lunch",
+      "img": "https://i.ibb.co/z5Lc8R9/lunch4.png",
+      "des": "Very much delicious and spicy",
+      "price": "8.99"
+    },
+    {
+      "id": 5,
+      "name": "Fried-Chicken-Bento",
+      "img": "https://i.ibb.co/vcc7ytQ/lunch5.png",
+      "des": "Very much delicious and spicy",
+      "price": "6.99"
+    },
+    {
+      "id": 6,
+      "name": "Healthy-Meal-Plan",
+      "img": "https://i.ibb.co/D59QD7D/lunch6.png",
+      "des": "Very much delicious and spicy",
+      "price": "29.99"
+    }
+  ]

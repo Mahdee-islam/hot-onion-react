@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img": " https://i.ibb.co/6J9hXBj/dinner1.png",
+    "name": "Baked Chicken",
+    "des": "Delicious and healthy",
+    "price": "9.99"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/6t4tKmq/dinner2.png",
+    "name": "Lemony-Salmon-Piccata",
+    "des": "Delicious and healthy",
+    "price": "10.99"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/cc2x1Np/dinner3.png",
+    "name": "Garlic-Butter-Salmon",
+    "des": "Delicious and healthy",
+    "price": "6.99"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/fNPWnHT/dinner4.png",
+    "name": "French-Fries-Cheese",
+    "des": "Delicious and healthy",
+    "price": "6.99"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/jfdFJcb/dinner5.png",
+    "name": "Pork-With-Quinofa",
+    "des": "Delicious and healthy",
+    "price": "12.99"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/rdDgRcR/dinner6.png",
+    "name": "Salmon-Lentil-Salad",
+    "des": "Delicious and healthy",
+    "price": "9.99"
+  }
+]
