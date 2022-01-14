@@ -5,8 +5,10 @@ import Banner from './components/Banner/Banner';
 import Breakfast from './components/Breakfast/Breakfast';
 import Dinner from './components/Dinner/Dinner';
 import Header from './components/Header/Header';
+import Login from './components/Login/Login';
 import Lunch from './components/Lunch/Lunch';
 import Menu from './components/Menu/Menu';
+import AuthProvider from './context/AuthProvider';
 
 
 
@@ -15,7 +17,8 @@ import Menu from './components/Menu/Menu';
 function App() {
   return (
     <div className="App">
-      <Header/>
+     <AuthProvider>
+     <Header/>
        <Banner/>
        <BrowserRouter>
        <Menu/>
@@ -23,9 +26,10 @@ function App() {
         <Route path = "/breakfast" element = { <Breakfast/> } />
         <Route path = "/lunch" element = { <Lunch/> } />
         <Route path = "/dinner" element = { <Dinner/> } />
-
        </Routes>
+       <Login/>
        </BrowserRouter>
+     </AuthProvider>
     </div>
   );
 }

@@ -1,7 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 
 const Menu = () => {
+
+const { user } = useAuth();
+
     return (
         <div>
             <div className='flex items-center justify-center gap-6'> 
