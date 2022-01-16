@@ -7,7 +7,10 @@ const Login = () => {
 const {  user, signInUsingGoogle } = useAuth();
 
     return (
-        <div className='grid gap-10 grid-cols-2 bg-orange-50 mb-4'>
+      <div>
+          {!user.email &&  <div className="border rounded mx-8 my-4">
+       <h2 className='text-4xl mt-2 text-cyan-800'>Please Login</h2>
+        <div className='grid gap-10 grid-cols-2 mb-4'>
             <div className='ml-16 mt-12'>
                 <div className="w-full max-w-xs">
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -39,6 +42,8 @@ const {  user, signInUsingGoogle } = useAuth();
                     <img className='w-full' src= { login } alt="" />
             </div>
         </div>
+       </div> }
+      </div>
     );
 };
 

@@ -14,7 +14,7 @@ const LunchMeal = ({ meal }) => {
     <p className='text-rose-600 text-xl mt-2'> ${ price } </p>
   </div>
   <div className="px-6 pt-4 pb-2">
-    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-2'>Order</button>
+    <button className='bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-2'>Order</button>
   </div>
         </div>
         </div>

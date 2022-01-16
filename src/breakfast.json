@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/7CjC26n/breakfast1.png",
+    "name": "Eggs Benedict",
+    "des": "Delicious and healthy",
+    "price": "8.99"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/2yJnr5c/breakfast2.png",
+    "name": "Breakfast Sandwich",
+    "des": "Delicious and healthy",
+    "price": "8.99"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/QfB2pyV/breakfast3.png",
+    "name": "Baked Chicken",
+    "des": "Delicious and healthy",
+    "price": "10.99"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/55pQ76b/breakfast4.png",
+    "name": "Bagel and Cream Cheese",
+    "des": "Delicious and healthy",
+    "price": "6.99"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/z8n2mLD/breakfast5.png",
+    "name": "Full Breakfast Fried Egg Toast",
+    "des": "Delicious and healthy",
+    "price": "3.99"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/KD3xmvb/breakfast6.png",
+    "name": "Toast Croisants Fried Egg",
+    "des": "Delicious and healthy",
+    "price": "19.99"
+  }
+]

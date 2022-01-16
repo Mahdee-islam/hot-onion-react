@@ -1,14 +1,15 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Banner from './components/Banner/Banner';
+import Booking from './components/Booking/Booking';
 import Breakfast from './components/Breakfast/Breakfast';
 import Dinner from './components/Dinner/Dinner';
-import Header from './components/Header/Header';
-import Login from './components/Login/Login';
+import Home from './components/Home/Home';
 import Lunch from './components/Lunch/Lunch';
-import Menu from './components/Menu/Menu';
 import AuthProvider from './context/AuthProvider';
+
+
+
 
 
 
@@ -18,16 +19,17 @@ function App() {
   return (
     <div className="App">
      <AuthProvider>
-     <Header/>
-       <Banner/>
+     
        <BrowserRouter>
-       <Menu/>
+       <Home/>
        <Routes>
+       
         <Route path = "/breakfast" element = { <Breakfast/> } />
         <Route path = "/lunch" element = { <Lunch/> } />
         <Route path = "/dinner" element = { <Dinner/> } />
+        <Route path = "/booking/:mealId" element = { <Booking/> } />
+       
        </Routes>
-       <Login/>
        </BrowserRouter>
      </AuthProvider>
     </div>
